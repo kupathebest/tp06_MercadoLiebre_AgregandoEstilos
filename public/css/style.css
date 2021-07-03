@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.home .logo{
+    width: 50%;
+}
+
+.home header {
+    background-color: #EAC926;
+}
+
+.home header div h3 {
+    font-size: 15px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.home header div {
+    text-align: center ;
+}
+
+.home header div div.burger-menu {
+    display: inline-block;
+    font-size: 30px;
+    line-height: 10px;
+    background-color: #03264C;
+    color: white;
+    padding: 15px;
+    border: #03264C 1px solid ;
+    border-radius: 10px;
+}
+
+.home main .banner img{
+    width: 100%;
+    display: none;
+}
+
+.home main article img {
+    width: 60%;
+}
+
+.home footer section p {
+    width: 70%;
+    text-align: center;
+}
